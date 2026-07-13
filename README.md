@@ -108,11 +108,11 @@ npm test
 cd backend  
 npm test  
   
-# Run frontend tests  
+## Run frontend tests  
 cd frontend  
 npm test  
   
-# Run tests with coverage  
+## Run tests with coverage  
 npm run test:coverage
 Test Coverage
 Backend: 72 tests passing, ~20% lines covered (logic tests only)
@@ -131,7 +131,7 @@ Deploy Workflow: Manual trigger for production deployment
 SSH-based deployment to production server
 Infisical secrets management
 Automated frontend build and service restart deploy.yml:1-94
-📡 API Endpoints
+## 📡 API Endpoints
 Authentication
 Method	Endpoint	Description
 POST	/api/auth/login	User login
@@ -151,7 +151,7 @@ GET	/api/responses/leaderboard/:roomId	Get room leaderboard
 Health
 Method	Endpoint	Description
 GET	/api/health	Health check endpoint
-🔌 Socket.IO Events
+## 🔌 Socket.IO Events
 Client → Server
 Event	Payload	Description
 room:join	{ roomCode, userId }	Join a room session
