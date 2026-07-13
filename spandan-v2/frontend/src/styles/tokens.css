@@ -1,0 +1,27 @@
+:root[data-theme="dark"] {
+  --surface-0: #0a0a0b;
+  --surface-1: #141416;
+  --surface-2: #1c1c1f;
+  --surface-border: #2a2a2e;
+
+  --accent: #5b8def;
+  --accent-muted: #5b8def22;
+  --success: #34d399;
+  --danger: #f87171;
+  --warning: #fbbf24;
+
+  --text-primary: #e8e8ea;
+  --text-secondary: #8a8a90;
+  --text-tertiary: #55555a;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  --shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background: var(--surface-0);
+  color: var(--text-primary);
+}
