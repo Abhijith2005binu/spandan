@@ -73,38 +73,38 @@ CORS_ORIGINS=http://localhost:5173,http://localhost:3001
 MONGODB_URI=mongodb://localhost:27017/spandan  
 JWT_SECRET=your-super-secret-jwt-string-here  
   
-# AI Provider API Keys (optional - for question generation)  
+## AI Provider API Keys (optional - for question generation)  
 MINIMAX_API_KEY=  
 OPENAI_API_KEY=  
 ANTHROPIC_API_KEY=  
 GOOGLE_API_KEY=  
   
-# SMTP Email Configuration (for password reset)  
+## SMTP Email Configuration (for password reset)  
 SMTP_EMAIL=your@gmail.com  
 SMTP_PASSWORD=your-gmail-app-password
 Development
-# Run both frontend and backend in development mode  
+## Run both frontend and backend in development mode  
 npm run dev  
   
-# Run frontend only  
+## Run frontend only  
 npm run dev:frontend  
   
-# Run backend only  
+## Run backend only  
 npm run dev:backend
 Production Build
-# Build frontend for production  
+## Build frontend for production  
 npm run build  
   
-# Start production server  
+## Start production server  
 node server.js
 🧪 Testing
 The project uses Jest for testing with separate suites for frontend and backend.
 
 Running Tests
-# Run all tests  
+## Run all tests  
 npm test  
   
-# Run backend tests  
+## Run backend tests  
 cd backend  
 npm test  
   
